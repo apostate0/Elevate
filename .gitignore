@@ -1,0 +1,75 @@
+# Installation and Configuration
+INSTALLED.lock
+config/database.php
+
+# Debug and Test Files
+debug_*.php
+test_*.php
+check_*.php
+*.debug
+*.test
+
+# Backup Files
+*.backup
+*.bak
+*.orig
+
+# Logs
+*.log
+logs/
+error.log
+
+# Uploads and User Content
+uploads/*
+!uploads/.gitkeep
+
+# Cache and Temporary Files
+cache/
+tmp/
+temp/
+*.tmp
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Apache and Server Files
+.htaccess.backup*
+.htaccess.test*
+.htaccess.debug*
+.htaccess.minimal*
+.htaccess.working*
+
+# PowerShell Scripts (debugging)
+fix_*.ps1
+simple_fix.ps1
+
+# Environment Files
+.env
+.env.local
+.env.production
+
+# Composer (if used in future)
+vendor/
+composer.lock
+
+# Node.js (if used in future)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Database Dumps
+*.sql
+*.dump
